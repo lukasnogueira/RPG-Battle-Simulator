@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title"><strong>Battle Simulator:</strong></div>
+
+<div class="pd" id="add">
+  <input type="text" class="dano" placeholder="Name" id="Name"><br>
+   <input type="text" class="dano" placeholder="CA" id="CA"><br>
+  <input type="text" class="dano" placeholder="DMG Base" id="DMG_Base"><br>
+  <input type="text" class="dano" placeholder="HP" id="HP"><br>
+  <input type="text" class="dano" placeholder="Haste" id="Haste"><br>
+  <input type="button" class="dano" value="Add Character" onclick="add()">
+</div>
+<div class="style-tabela">
+  <table id="tabela" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <thead>
+      <td class="top center">V/M</td>
+      <td class="top center">ID</td>
+      <td class="top center">Name</td>
+      <td class="top center">CA</td>
+      <td class="top center">DMB Base</td>
+      <td class="top center">HP</td>
+      <td class="top center">Damage</td>
+      <td class="top center">Haste</td>
+      <td class="top center">Delete</td>
+      <td class="top center">OBS</td>
+    </thead>
+    <tbody id="tbody">
+      
+    </tbody>
+  </table>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
